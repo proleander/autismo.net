@@ -1,37 +1,41 @@
+# Autismo.net - Assistente para Pais de Crianças Autistas
 
-Autism.Net - Projeto de Aplicação Web para Auxílio a Pais de Crianças Autistas
-Descrição do Projeto
-Autism.Net é uma aplicação web inovadora voltada para auxiliar pais e cuidadores de crianças autistas. A plataforma utiliza Inteligência Artificial (IA) para ajudar a reconhecer sinais e momentos de estresse ou crises iminentes em crianças autistas. Através de uma interface intuitiva e prática, o sistema proporciona orientações e soluções personalizadas para agir em situações difíceis, visando reduzir o impacto de crises e melhorar a qualidade de vida tanto da criança quanto de seus cuidadores.
+**Autismo.net** é uma aplicação web desenvolvida para ajudar pais e cuidadores de crianças autistas a identificarem sinais de estresse, comportamentos atípicos e a reagirem adequadamente em momentos de crise. Utilizando Inteligência Artificial (IA), a plataforma oferece insights em tempo real sobre o comportamento da criança e fornece sugestões de como lidar com diferentes situações.
 
-Funcionalidades Principais
-Monitoramento em Tempo Real: A IA analisa padrões de comportamento e sinais fisiológicos (se conectada a dispositivos de monitoramento) para alertar os pais quando uma crise pode estar prestes a ocorrer.
+## Funcionalidades
 
-Reconhecimento de Sinais: Através de algoritmos de reconhecimento de padrões, a plataforma identifica mudanças sutis no comportamento da criança, como aumento de estresse, ansiedade ou desconforto.
+- **Reconhecimento de sinais de estresse**: A IA monitora e identifica sinais de que a criança está prestes a entrar em crise.
+- **Sugestões em tempo real**: Oferece orientações práticas e personalizadas para ajudar pais a lidarem com crises.
+- **Histórico de comportamento**: Acompanhe o comportamento da criança ao longo do tempo e identifique padrões.
+- **Interface intuitiva e acessível**: Design fácil de usar, pensado para pais com pouca experiência tecnológica.
+- **Recursos educativos**: Oferece materiais para educar os pais sobre autismo e como responder a diferentes desafios.
 
-Orientações Personalizadas: Quando sinais de uma possível crise são detectados, a aplicação oferece dicas e sugestões práticas para os pais sobre como agir, com base no perfil comportamental da criança.
+## Tecnologias Utilizadas
 
-Histórico de Crises: A aplicação mantém um registro de crises anteriores e de sinais associados, ajudando os pais a identificar padrões e a se preparar melhor para situações futuras.
+### Backend:
+- **Node.js**: Para a lógica de negócios e APIs RESTful que alimentam a aplicação.
+- **Python**: Para processamento da IA que monitora e analisa o comportamento.
+- **Oracle SQL**: Banco de dados para armazenar o histórico de interações e comportamentos.
 
-Interface Intuitiva: Design focado na facilidade de uso, permitindo que pais e cuidadores acessem rapidamente as informações e recomendações, sem complexidade.
+### Frontend:
+- **React**: Framework para construção da interface interativa e responsiva.
+- **HTML/CSS/JavaScript**: Estrutura e estilização das páginas.
 
-Tecnologias Utilizadas
-Front-End: Desenvolvido utilizando HTML5, CSS3, e JavaScript para uma interface moderna e responsiva.
+## Requisitos para Execução
 
-Back-End: Node.js com Express, oferecendo uma estrutura robusta para a aplicação.
+- **Node.js+**
+- **Node.js 14+**
+- **Oracle Database**
+- **Python 3.8+**
+- **Docker (opcional)** para executar o ambiente local.
 
-Banco de Dados: PostgreSQL para armazenar os dados de crises, perfis de comportamento e históricos.
+## Instalação e Execução
 
-Inteligência Artificial: Algoritmos de machine learning para o reconhecimento de padrões comportamentais, utilizando TensorFlow.js ou PyTorch para análises em tempo real.
+### 1. Backend
 
-API de Integração: Integração com APIs de dispositivos wearables para monitoramento de dados fisiológicos em tempo real (opcional).
-
-Instalação e Execução
-Pré-requisitos
-Node.js e NPM instalados
-PostgreSQL para o banco de dados
-Conta no serviço de hospedagem de IA (como TensorFlow.js ou PyTorch)
-Passos para Rodar o Projeto
-Clonar o Repositório:
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/autismo-net-backend.git
 
 bash
 Copiar código
